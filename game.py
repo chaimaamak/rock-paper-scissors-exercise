@@ -11,7 +11,15 @@ print("USER CHOICE", user_choice)  # Making sure the input is captured properly
 
 # VALIDATE INPUTS
 
+if user_choice in ["rock", "paper", "scissors"]:
+    print("VALID")
+else:
+    print("INVALID SELECTION, PLEASE TRY AGAIN...")
+    exit()
+
 # GENERATE COMPUTER SELECTION
+
+print("GENERATING...")
 
 # DETERMINE THE WINNER
 
